@@ -1,0 +1,10 @@
+var weather = function displayWeather(weatherType) {
+  console.log("The current weather is " + weatherType)
+}
+
+function weatherTypes(messageFunction, type) {
+  messageFunction(type)
+}
+
+let favourite = weatherTypes(weather, "rain")
+//console.log(favourite)
