@@ -1,5 +1,5 @@
 const sayHello  = function (name) {
-  console.log("Hello, world" + name);
+  console.log("Hello, world " + name);
 }
 
 sayHello("juniper");
